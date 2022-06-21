@@ -365,7 +365,7 @@ h3{
     background-color: #f7f5f5;
 }
 
-
+/* abotu us  */
 
 /* sub-header */
 .sub-header{
@@ -384,17 +384,7 @@ h3{
     margin-top: 100px;
 }
 
-/* about us page
-.sub-header{
-    height: 50vh;
-
-background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7), url(images/images-folder/background.jpg) );
-background-position: center;
-background-size: cover;
-text-align: center;
-color: white;
-width: 100%;
-} */
+/* about us page */
 
 
 .about-us{
@@ -410,6 +400,13 @@ width: 100%;
     margin: 10px;
 }
 
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px 0;
+}
+
 .about-col img{
     width: 100%;
 }
@@ -421,3 +418,105 @@ width: 100%;
     color: red;
 }
 
+.hero-btn1{
+    /* border: 2px solid black;
+    padding: 8px;
+    list-style: none; */
+
+    text-decoration: none;
+    color: rgb(220, 135, 135);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    /* background: transparent; */
+    position: relative;
+    cursor: pointer;
+}
+
+
+.hero-btn1:hover{
+    background: red;
+    color: rgb(6, 6, 6);
+    transition: 2s;
+    /* border: none; */
+}
+
+/* blog-content */
+
+.blog-content{
+    width: 80%;
+    margin:auto;
+    padding: 60px 0;
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+
+.blog-right h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: #555;
+ padding: 8px;
+ box-sizing: border-box;
+}
+
+
+
+
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3{
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    background: #f0f0f0;
+}
+
+.comment-form button{
+    margin: 10px 0;
+}
+
+
+@media(max-width:700px){
+    .sub-header h1{
+       font-size: 21px;
+    }
+}
