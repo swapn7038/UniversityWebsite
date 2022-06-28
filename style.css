@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:  sans-serif;
 }
 
 .header{
@@ -48,7 +48,7 @@ nav img{
   content: '';
   width: 0%;
   height: 2px;
-  background: #f44336;
+  background: #eb3131;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -90,10 +90,10 @@ nav img{
 }
 
 .hero-btn:hover{
-    border: 1px solid #f0eded;
-    background: #605d5c;
+    border: 1px solid #e2dada;
+    background: #eb3131;
     transition: 1s;
-    color: rgb(213, 196, 196);
+    color: rgb(255, 255, 255);
 }
 
 nav .fa{
@@ -208,7 +208,6 @@ h3{
 }
 
 .layer{
-    /* background: rgba(222, 0, 0, 0.7); */
     height: 100%;
     width: 100%;
     position: absolute;
@@ -246,7 +245,6 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
-
 
 .facilities-col{
     flex-basis: 31%;
@@ -306,7 +304,6 @@ h3{
     text-align: center;
 }
 
-
 @media(max-width: 700px){
     .testimonial-col  img{
         margin-left: 0px;
@@ -314,7 +311,6 @@ h3{
 
     }
 }
-
 
 .cta {
     margin: 100px auto;
@@ -326,7 +322,6 @@ h3{
     text-align: center;
     padding: 100px 0;
 }
-
 
 .cta h1{
     color: white;
@@ -371,8 +366,6 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    /* background-color: #605d5c; */
-    /* background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7), url('images/images-folder/background.jpg') ); */
     background-position: center;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7) ),  url('images/images-folder/background.jpg');
     background-size: cover;
@@ -385,8 +378,6 @@ h3{
 }
 
 /* about us page */
-
-
 .about-us{
     width: 80%;
     margin: auto;
@@ -414,30 +405,22 @@ h3{
 .red-btn{
     border: 2px solid rgb(227, 14, 14);
     background-color: #f5f2f1;
-    /* background: transparent; */
     color: red;
 }
 
 .hero-btn1{
-    /* border: 2px solid black;
-    padding: 8px;
-    list-style: none; */
-
     text-decoration: none;
     color: rgb(220, 135, 135);
     border: 2px solid rgb(0, 0, 0);
     padding: 12px 34px;
-    /* background: transparent; */
     position: relative;
     cursor: pointer;
 }
-
 
 .hero-btn1:hover{
     background: red;
     color: rgb(6, 6, 6);
     transition: 2s;
-    /* border: none; */
 }
 
 /* blog-content */
@@ -488,9 +471,6 @@ h3{
  box-sizing: border-box;
 }
 
-
-
-
 .comment-box{
     border: 1px solid #ccc;
     margin: 50px 0;
@@ -513,7 +493,6 @@ h3{
 .comment-form button{
     margin: 10px 0;
 }
-
 
 @media(max-width:700px){
     .sub-header h1{
